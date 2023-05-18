@@ -1,0 +1,35 @@
+p {
+    font-weight: bolder;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+.social-links i {
+    padding: 10px;
+    color: gray;
+}
+
+.social-links a .bi-facebook:hover {
+    color: #3b5998;
+}
+
+.social-links a .bi-whatsapp:hover {
+    color: #37C12E;
+}
+
+.social-links a .bi-twitter:hover {
+    color: #1da1f2;
+}
+
+.social-links a .bi-instagram:hover {
+    color: #c13584;
+}
+
+.social-links a .bi-youtube:hover {
+    color: #f70000;
+}
