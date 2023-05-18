@@ -45,7 +45,7 @@
         if (count > 3) {
             count = 0
         }
-        console.log (count);
+        console.log (count)
         image.src = data[count].image;
         isam.innerText = data[count].name;
         designation.innerText = data[count].designation;
@@ -56,7 +56,7 @@
         if(count < 0) {
             count = 3
         }
-        console.log (count);
+        console.log (count)
         image.src = data[count].image;
         isam.innerText = data[count].name;
         designation.innerText = data[count].designation;
